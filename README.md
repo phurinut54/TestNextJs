@@ -1,7 +1,13 @@
 echo "# TestNextJs" >> README.md
+
 git init
-git add . //เลือกไฟล์ที่จะ push ไปทั้งหมด
+
+git add .               //add . เป็นการ commit ไฟล์ทั้งหมดเข้าไปเพื่อ push ไปัง github
+
 git commit -m "first commit"
+
 git branch -M main
+
 git remote add origin https://github.com/phurinut54/TestNextJs.git
-git push -u origin maingit
+
+git push -u origin main
